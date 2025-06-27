@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/cmsis_6/cmsis_6",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/cmsis_6"
+	}
+}
