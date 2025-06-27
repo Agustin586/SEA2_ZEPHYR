@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/hal_nxp/mcux/mcux-sdk-ng/drivers/lpc_i2c_1",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpc_i2c_1"
+	}
+}

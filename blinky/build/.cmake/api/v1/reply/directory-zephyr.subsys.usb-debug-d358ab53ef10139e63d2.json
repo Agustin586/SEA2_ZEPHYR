@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/subsys/usb",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/subsys/usb"
+	}
+}

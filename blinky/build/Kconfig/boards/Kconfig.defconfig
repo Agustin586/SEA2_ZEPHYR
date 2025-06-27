@@ -1,0 +1,2 @@
+# Load Zephyr board defconfig descriptions.
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/Kconfig.defconfig"

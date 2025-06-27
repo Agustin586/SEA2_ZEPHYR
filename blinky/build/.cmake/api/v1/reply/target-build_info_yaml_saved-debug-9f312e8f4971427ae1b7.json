@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"yaml_save"
+		],
+		"files" : 
+		[
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/modules/yaml.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2350,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 502,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "build_info_yaml_saved::@d36e55b69c1b90fb26b2",
+	"name" : "build_info_yaml_saved",
+	"paths" : 
+	{
+		"build" : "zephyr",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/zephyr/CMakeFiles/build_info_yaml_saved",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/zephyr/CMakeFiles/build_info_yaml_saved.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
