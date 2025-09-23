@@ -1,0 +1,54 @@
+cmake:
+  application:
+    configuration-dir: 'D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads'
+    source-dir: 'D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads'
+  board:
+    name: 'frdm_mcxc444'
+    path:
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444'
+    qualifiers: 'mcxc444'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/bindings'
+    files:
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts'
+    include-dirs:
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ambiq/dts'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/atmel/include'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/bouffalolab/include'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/bouffalolab/include/zephyr'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/gigadevice/include'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/microchip/include'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/microchip/dts'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nuvoton/dts'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/dts'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/stm32/dts'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ti/dts'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/include'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/common'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/vendor'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/rx'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/x86'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/xtensa'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/sparc'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/riscv'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/posix'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm64'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arc'
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts'
+  kconfig:
+    files:
+     - 'D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444_defconfig'
+     - 'D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/prj.conf'
+    user-files:
+     - 'D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/aguat/zephyr-sdk-0.17.0'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: 'D:/aguat/Documents/zephyr/zephyr_main/zephyr'
+version: '0.1.0'

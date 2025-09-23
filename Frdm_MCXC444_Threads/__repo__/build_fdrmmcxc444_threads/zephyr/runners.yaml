@@ -1,0 +1,32 @@
+# Available runners configured by board.cmake.
+runners:
+- linkserver
+- pyocd
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: linkserver
+
+# Default debug runner if --runner is not given.
+debug-runner: linkserver
+
+# Common runner configuration values.
+config:
+  board_dir: D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444
+  # Build outputs:
+  elf_file: zephyr.elf
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: C:/Users/aguat/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
+
+# Runner specific arguments
+args:
+  linkserver:
+    - --dt-flash=y
+    - --device=MCXC444:FRDM-MCXC444
+  pyocd:
+    - --dt-flash=y
+    - --target=mcxc444
+  jlink:
+    - --dt-flash=y
+    - --device=MCXC444

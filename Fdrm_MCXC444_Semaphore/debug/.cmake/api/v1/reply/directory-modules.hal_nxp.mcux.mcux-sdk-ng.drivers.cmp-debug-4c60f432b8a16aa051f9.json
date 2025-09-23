@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/hal_nxp/mcux/mcux-sdk-ng/drivers/cmp",
+		"source" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/cmp"
+	}
+}

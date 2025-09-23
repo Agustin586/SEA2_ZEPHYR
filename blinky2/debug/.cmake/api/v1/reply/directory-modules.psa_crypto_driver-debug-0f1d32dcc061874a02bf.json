@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/psa_crypto_driver",
+		"source" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/crypto/psa_crypto_driver/zephyr"
+	}
+}
