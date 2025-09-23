@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/soc/soc/mcxc444/mcxc",
+		"source" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/soc/nxp/mcx/mcxc"
+	}
+}

@@ -1,0 +1,31 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug-env",
+      "displayName": "debug-env",
+      "hidden": true,
+      "environment": {
+        "ZEPHYR_BASE": "D:/aguat/Documents/zephyr/zephyr_main/zephyr",
+        "ZEPHYR_SDK_INSTALL_DIR": "C:/Users/aguat/zephyr-sdk-0.17.0",
+        "MCUX_VENV_PATH": "C:/Users/aguat/.mcuxpressotools/.venv/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH};$penv{PATH}"
+      }
+    },
+    {
+      "name": "release-env",
+      "displayName": "release-env",
+      "hidden": true,
+      "environment": {
+        "ZEPHYR_BASE": "D:/aguat/Documents/zephyr/zephyr_main/zephyr",
+        "ZEPHYR_SDK_INSTALL_DIR": "C:/Users/aguat/zephyr-sdk-0.17.0",
+        "MCUX_VENV_PATH": "C:/Users/aguat/.mcuxpressotools/.venv/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH};$penv{PATH}"
+      }
+    }
+  ],
+  "buildPresets": []
+}

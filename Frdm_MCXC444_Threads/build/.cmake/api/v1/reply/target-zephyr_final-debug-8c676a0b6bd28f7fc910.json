@@ -1,0 +1,1017 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "zephyr/zephyr.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"include",
+			"include_boilerplate",
+			"find_package",
+			"target_link_libraries",
+			"toolchain_ld_link_elf",
+			"zephyr_library_link_libraries",
+			"target_link_libraries_ifdef",
+			"target_ld_options",
+			"zephyr_ld_options",
+			"zephyr_link_libraries",
+			"zephyr_link_libraries_ifdef",
+			"toolchain_ld_force_undefined_symbols",
+			"zephyr_link_libraries_ifndef",
+			"add_dependencies",
+			"add_custom_command"
+		],
+		"files" : 
+		[
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/linker/ld/gcc/linker_flags.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/linker/ld/linker_flags.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/target_toolchain_flags.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/modules/kernel.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/modules/zephyr_default.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake",
+			"CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/linker/ld/target.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/cmake/modules/extensions.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/arch/common/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr/lib/libc/picolibc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1667,
+				"parent" : 0
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 4,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 97,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 66,
+				"parent" : 5
+			},
+			{
+				"file" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 140,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 153,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 11
+			},
+			{
+				"file" : 2,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 57,
+				"parent" : 13
+			},
+			{
+				"file" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1668,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 120,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1712,
+				"parent" : 0
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 109,
+				"parent" : 20
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 537,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 409,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 164,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 2396,
+				"parent" : 24
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 2033,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 412,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 27
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 2081,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 422,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 96,
+				"parent" : 32
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 144,
+				"parent" : 33
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 96,
+				"parent" : 32
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 144,
+				"parent" : 35
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 37
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 447,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 141,
+				"parent" : 39
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 503,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 2233,
+				"parent" : 41
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 144,
+				"parent" : 42
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 26,
+				"parent" : 44
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 139,
+				"parent" : 45
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 35,
+				"parent" : 44
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 144,
+				"parent" : 47
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 980,
+				"parent" : 0
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 1432,
+				"parent" : 0
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 1677,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/build/zephyr/include/generated/zephyr/autoconf.h"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-printf-return-value"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mcpu=cortex-m0plus"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mabi=aapcs"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mfp16-format=ieee"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-mtp=soft"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "--sysroot=C:/Users/aguat/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/toolchain/zephyr_stdint.h"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-format-zero-length"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-pointer-sign"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wexpansion-to-defined"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-unused-but-set-variable"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-pic"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-pie"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-asynchronous-unwind-tables"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-ftls-model=local-exec"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-reorder-functions"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "--param=min-pagesize=0"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fno-defer-pop"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads=CMAKE_SOURCE_DIR"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/zephyr/zephyr_main/zephyr=ZEPHYR_BASE"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/zephyr/zephyr_main=WEST_TOPDIR"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-specs=picolibc.specs"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-std=c99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 18,
+					"define" : "CPU_MCXC444VLH"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "KERNEL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "K_HEAP_MEM_POOL_SIZE=0"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "PICOLIBC_LONG_LONG_PRINTF_SCANF"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__LINUX_ERRNO_EXTENSIONS__"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__PROGRAM_START"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__ZEPHYR__=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/build/zephyr/include/generated/zephyr"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/build/zephyr/include/generated"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/soc/nxp/mcx"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/soc/nxp/mcx/mcxc/."
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/cmsis_6/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/modules/cmsis_6/."
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpuart"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/drivers"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/."
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/m0p"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/peripherals"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/peripherals/m0p"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/peripherals/m0p/sysctl"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/lib/libc/common/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 18,
+			"id" : "drivers__timer::@d6d9b8697bc2d7d4441f"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__pinctrl::@762029cc579c68d25071"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__serial::@18e421c5ba74f72aaba5"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "modules__hal_nxp::@bbf8a5eb6bf6a8dd8b9f"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "kobj_types_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "device_api_ld_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "zephyr::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "driver_validation_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"id" : "offsets::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "zephyr_pre0::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "linker_zephyr_final_script_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "app::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__arm__core::@717147f9117c30afc083"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__common::@0b0b0cfd7a24e8ecfe11"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "isr_tables::@0b0b0cfd7a24e8ecfe11"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "arch__arm__core__cortex_m::@5e05c4b15b4c2575dfc6"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "kernel::@84e783bf488a9f887759"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__clock_control::@03043f5596ae6e5fcffe"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__console::@39939278fdcee8c62e52"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "drivers__gpio::@f8009383a952b2e6d5b0"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "lib__libc__picolibc::@c5e8934bde5423fa7ac5"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "lib__libc__common::@4887e96c8898694998ea"
+		}
+	],
+	"id" : "zephyr_final::@d36e55b69c1b90fb26b2",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "-gdwarf-4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\CMakeFiles\\offsets.dir\\.\\arch\\arm\\core\\offsets\\offsets.c.obj",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-T",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\linker.cmd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-Wl,-Map,D:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/build/zephyr/zephyr_final.map",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-Wl,--whole-archive",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "app\\libapp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\libzephyr.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\common\\libarch__common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\arch\\arm\\core\\libarch__arm__core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\arch\\arch\\arm\\core\\cortex_m\\libarch__arm__core__cortex_m.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\lib\\libc\\picolibc\\liblib__libc__picolibc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\lib\\libc\\common\\liblib__libc__common.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\clock_control\\libdrivers__clock_control.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\console\\libdrivers__console.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\gpio\\libdrivers__gpio.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\pinctrl\\libdrivers__pinctrl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\serial\\libdrivers__serial.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\drivers\\timer\\libdrivers__timer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "modules\\hal_nxp\\libmodules__hal_nxp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-Wl,--no-whole-archive",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "zephyr\\kernel\\libkernel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-LD:/aguat/Documents/GitHub/Zephyr-SEA2/Frdm_MCXC444_Threads/build/zephyr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-Wl,--print-memory-usage",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "zephyr\\arch\\common\\libisr_tables.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-mcpu=cortex-m0plus",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-mthumb",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-mabi=aapcs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-mfp16-format=ieee",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-mtp=soft",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-fuse-ld=bfd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "-Wl,--build-id=none",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "-Wl,--sort-common=descending",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "-Wl,--sort-section=alignment",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "-Wl,-u,_OffsetAbsSyms",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "-Wl,-u,_ConfigAbsSyms",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "-nostdlib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "-static",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "-Wl,-X",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "-Wl,-N",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "-Wl,--orphan-handling=warn",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "-Wl,-no-pie",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "-specs=picolibc.specs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "-DPICOLIBC_LONG_LONG_PRINTF_SCANF",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "zephyr_final",
+	"nameOnDisk" : "zephyr.elf",
+	"paths" : 
+	{
+		"build" : "zephyr",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/misc/empty_file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/zephyr/isr_tables.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/zephyr/isr_tables.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

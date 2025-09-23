@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/littlefs",
+		"source" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/modules/littlefs"
+	}
+}

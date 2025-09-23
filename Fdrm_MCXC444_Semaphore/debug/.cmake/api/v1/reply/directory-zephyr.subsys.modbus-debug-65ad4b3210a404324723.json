@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/subsys/modbus",
+		"source" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/subsys/modbus"
+	}
+}

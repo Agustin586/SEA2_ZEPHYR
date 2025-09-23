@@ -1,0 +1,191 @@
+menu "zsdk (D:/aguat/Documents/zephyr/nxp_zephyr/zsdk)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/zsdk/Kconfig.nxp"
+config ZEPHYR_ZSDK_MODULE
+	bool
+	default y
+endmenu
+menu "hal_nxp (D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp)"
+osource "$(ZEPHYR_HAL_NXP_KCONFIG)"
+config ZEPHYR_HAL_NXP_MODULE
+	bool
+	default y
+	select TAINT_BLOBS
+
+config ZEPHYR_HAL_NXP_MODULE_BLOBS
+	bool
+	default y
+endmenu
+menu "els_pkc (D:/aguat/Documents/zephyr/nxp_zephyr/modules/crypto/els_pkc)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/crypto/els_pkc/zephyr/Kconfig"
+config ZEPHYR_ELS_PKC_MODULE
+	bool
+	default y
+endmenu
+menu "psa_crypto_driver (D:/aguat/Documents/zephyr/nxp_zephyr/modules/crypto/psa_crypto_driver)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/crypto/psa_crypto_driver/zephyr/Kconfig"
+config ZEPHYR_PSA_CRYPTO_DRIVER_MODULE
+	bool
+	default y
+endmenu
+menu "mbedtls (D:/aguat/Documents/zephyr/nxp_zephyr/modules/crypto/mbedtls)"
+osource "$(ZEPHYR_MBEDTLS_KCONFIG)"
+config ZEPHYR_MBEDTLS_MODULE
+	bool
+	default y
+endmenu
+menu "trusted-firmware-m (D:/aguat/Documents/zephyr/nxp_zephyr/modules/tee/tf-m/trusted-firmware-m)"
+osource "$(ZEPHYR_TRUSTED_FIRMWARE_M_KCONFIG)"
+config ZEPHYR_TRUSTED_FIRMWARE_M_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_PSA_ARCH_TESTS_MODULE
+	bool
+	default y
+config ZEPHYR_TF_M_TESTS_MODULE
+	bool
+	default y
+menu "hostap (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/hostap)"
+osource "$(ZEPHYR_HOSTAP_KCONFIG)"
+config ZEPHYR_HOSTAP_MODULE
+	bool
+	default y
+endmenu
+menu "nxp_iot_agent (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/nxp_iot_agent)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/nxp_iot_agent/zephyr/Kconfig"
+config ZEPHYR_NXP_IOT_AGENT_MODULE
+	bool
+	default y
+endmenu
+menu "canopennode (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/canopennode)"
+osource "$(ZEPHYR_CANOPENNODE_KCONFIG)"
+config ZEPHYR_CANOPENNODE_MODULE
+	bool
+	default y
+endmenu
+menu "chre (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/chre)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/chre/platform/zephyr/Kconfig"
+config ZEPHYR_CHRE_MODULE
+	bool
+	default y
+endmenu
+menu "lz4 (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/lz4)"
+osource "$(ZEPHYR_LZ4_KCONFIG)"
+config ZEPHYR_LZ4_MODULE
+	bool
+	default y
+endmenu
+menu "zscilib (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/zscilib)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/zscilib/Kconfig.zscilib"
+config ZEPHYR_ZSCILIB_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis (D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/cmsis)"
+osource "$(ZEPHYR_CMSIS_KCONFIG)"
+config ZEPHYR_CMSIS_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-dsp (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/cmsis-dsp)"
+osource "$(ZEPHYR_CMSIS_DSP_KCONFIG)"
+config ZEPHYR_CMSIS_DSP_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis-nn (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/cmsis-nn)"
+osource "$(ZEPHYR_CMSIS_NN_KCONFIG)"
+config ZEPHYR_CMSIS_NN_MODULE
+	bool
+	default y
+endmenu
+menu "cmsis_6 (D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/cmsis_6)"
+osource "$(ZEPHYR_CMSIS_6_KCONFIG)"
+config ZEPHYR_CMSIS_6_MODULE
+	bool
+	default y
+endmenu
+menu "fatfs (D:/aguat/Documents/zephyr/nxp_zephyr/modules/fs/fatfs)"
+osource "$(ZEPHYR_FATFS_KCONFIG)"
+config ZEPHYR_FATFS_MODULE
+	bool
+	default y
+endmenu
+menu "hal_st (D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/st)"
+osource "$(ZEPHYR_HAL_ST_KCONFIG)"
+config ZEPHYR_HAL_ST_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_XTENSA_MODULE
+	bool
+	default y
+menu "liblc3 (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/liblc3)"
+osource "$(ZEPHYR_LIBLC3_KCONFIG)"
+config ZEPHYR_LIBLC3_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_LIBMETAL_MODULE
+	bool
+	default y
+menu "littlefs (D:/aguat/Documents/zephyr/nxp_zephyr/modules/fs/littlefs)"
+osource "$(ZEPHYR_LITTLEFS_KCONFIG)"
+config ZEPHYR_LITTLEFS_MODULE
+	bool
+	default y
+endmenu
+menu "loramac-node (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/loramac-node)"
+osource "$(ZEPHYR_LORAMAC_NODE_KCONFIG)"
+config ZEPHYR_LORAMAC_NODE_MODULE
+	bool
+	default y
+endmenu
+menu "lvgl (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/gui/lvgl)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/gui/lvgl/zephyr/Kconfig"
+config ZEPHYR_LVGL_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_MCUBOOT_MODULE
+	bool
+	default y
+config ZEPHYR_MIPI_SYS_T_MODULE
+	bool
+	default y
+config ZEPHYR_OPEN_AMP_MODULE
+	bool
+	default y
+menu "openthread (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/openthread)"
+osource "$(ZEPHYR_OPENTHREAD_KCONFIG)"
+config ZEPHYR_OPENTHREAD_MODULE
+	bool
+	default y
+endmenu
+menu "picolibc (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/picolibc)"
+osource "D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/picolibc/zephyr/Kconfig"
+config ZEPHYR_PICOLIBC_MODULE
+	bool
+	default y
+endmenu
+menu "segger (D:/aguat/Documents/zephyr/nxp_zephyr/modules/debug/segger)"
+osource "$(ZEPHYR_SEGGER_KCONFIG)"
+config ZEPHYR_SEGGER_MODULE
+	bool
+	default y
+endmenu
+config ZEPHYR_TINYCRYPT_MODULE
+	bool
+	default y
+menu "uoscore-uedhoc (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/uoscore-uedhoc)"
+osource "$(ZEPHYR_UOSCORE_UEDHOC_KCONFIG)"
+config ZEPHYR_UOSCORE_UEDHOC_MODULE
+	bool
+	default y
+endmenu
+menu "zcbor (D:/aguat/Documents/zephyr/nxp_zephyr/modules/lib/zcbor)"
+osource "$(ZEPHYR_ZCBOR_KCONFIG)"
+config ZEPHYR_ZCBOR_MODULE
+	bool
+	default y
+endmenu

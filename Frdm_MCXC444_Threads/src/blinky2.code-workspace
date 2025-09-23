@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "blinky2",
+			"path": "../../blinky2"
+		},
+		{
+			"name": "Frdm_MCXC444_Threads",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"kernel.h": "c"
+		}
+	}
+}

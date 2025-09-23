@@ -3,6 +3,10 @@
 		{
 			"name": "blinky",
 			"path": "blinky"
+		},
+		{
+			"name": "Frdm_MCXC444_Threads",
+			"path": "Frdm_MCXC444_Threads"
 		}
 	]
 }

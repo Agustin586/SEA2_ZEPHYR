@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/lib/heap",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/lib/heap"
+	}
+}

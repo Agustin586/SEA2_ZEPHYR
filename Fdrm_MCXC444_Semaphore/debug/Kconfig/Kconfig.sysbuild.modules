@@ -1,0 +1,105 @@
+config ZEPHYR_ZSDK_MODULE
+   bool
+   default y
+config ZEPHYR_HAL_NXP_MODULE
+   bool
+   default y
+config ZEPHYR_ELS_PKC_MODULE
+   bool
+   default y
+config ZEPHYR_PSA_CRYPTO_DRIVER_MODULE
+   bool
+   default y
+config ZEPHYR_MBEDTLS_MODULE
+   bool
+   default y
+config ZEPHYR_TRUSTED_FIRMWARE_M_MODULE
+   bool
+   default y
+config ZEPHYR_PSA_ARCH_TESTS_MODULE
+   bool
+   default y
+config ZEPHYR_TF_M_TESTS_MODULE
+   bool
+   default y
+config ZEPHYR_HOSTAP_MODULE
+   bool
+   default y
+config ZEPHYR_NXP_IOT_AGENT_MODULE
+   bool
+   default y
+config ZEPHYR_CANOPENNODE_MODULE
+   bool
+   default y
+config ZEPHYR_CHRE_MODULE
+   bool
+   default y
+config ZEPHYR_LZ4_MODULE
+   bool
+   default y
+config ZEPHYR_ZSCILIB_MODULE
+   bool
+   default y
+config ZEPHYR_CMSIS_MODULE
+   bool
+   default y
+config ZEPHYR_CMSIS_DSP_MODULE
+   bool
+   default y
+config ZEPHYR_CMSIS_NN_MODULE
+   bool
+   default y
+config ZEPHYR_CMSIS_6_MODULE
+   bool
+   default y
+config ZEPHYR_FATFS_MODULE
+   bool
+   default y
+config ZEPHYR_HAL_ST_MODULE
+   bool
+   default y
+config ZEPHYR_XTENSA_MODULE
+   bool
+   default y
+config ZEPHYR_LIBLC3_MODULE
+   bool
+   default y
+config ZEPHYR_LIBMETAL_MODULE
+   bool
+   default y
+config ZEPHYR_LITTLEFS_MODULE
+   bool
+   default y
+config ZEPHYR_LORAMAC_NODE_MODULE
+   bool
+   default y
+config ZEPHYR_LVGL_MODULE
+   bool
+   default y
+config ZEPHYR_MCUBOOT_MODULE
+   bool
+   default y
+config ZEPHYR_MIPI_SYS_T_MODULE
+   bool
+   default y
+config ZEPHYR_OPEN_AMP_MODULE
+   bool
+   default y
+config ZEPHYR_OPENTHREAD_MODULE
+   bool
+   default y
+config ZEPHYR_PICOLIBC_MODULE
+   bool
+   default y
+config ZEPHYR_SEGGER_MODULE
+   bool
+   default y
+config ZEPHYR_TINYCRYPT_MODULE
+   bool
+   default y
+config ZEPHYR_UOSCORE_UEDHOC_MODULE
+   bool
+   default y
+config ZEPHYR_ZCBOR_MODULE
+   bool
+   default y

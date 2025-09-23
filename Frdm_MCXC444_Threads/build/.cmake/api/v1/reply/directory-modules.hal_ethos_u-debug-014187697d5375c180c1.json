@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/hal_ethos_u",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr/modules/hal_ethos_u"
+	}
+}

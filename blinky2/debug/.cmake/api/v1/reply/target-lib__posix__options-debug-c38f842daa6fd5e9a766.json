@@ -1,0 +1,461 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "zephyr/lib/posix/options/liblib__posix__options.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"zephyr_library_named",
+			"zephyr_library",
+			"add_dependencies",
+			"add_compile_options",
+			"target_link_libraries",
+			"zephyr_library_compile_options",
+			"target_include_directories",
+			"zephyr_library_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/cmake/modules/extensions.cmake",
+			"D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/lib/posix/options/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 434,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 462,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 981,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 466,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 569,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 537,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 1032,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/blinky2/debug/zephyr/include/generated/zephyr/autoconf.h"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-printf-return-value"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mcpu=cortex-m0plus"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mabi=aapcs"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mfp16-format=ieee"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mtp=soft"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "--sysroot=C:/Users/aguat/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/include/zephyr/toolchain/zephyr_stdint.h"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-format-zero-length"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-pointer-sign"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wexpansion-to-defined"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-but-set-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-pic"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-pie"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-asynchronous-unwind-tables"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ftls-model=local-exec"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-reorder-functions"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "--param=min-pagesize=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fno-defer-pop"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/GitHub/Zephyr-SEA2/blinky2=CMAKE_SOURCE_DIR"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/zephyr/nxp_zephyr/zephyr=ZEPHYR_BASE"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/zephyr/nxp_zephyr=WEST_TOPDIR"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-specs=picolibc.specs"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-std=c99"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-U_POSIX_C_SOURCE"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-D_POSIX_C_SOURCE=200809L"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "CPU_MCXC444VLH"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "KERNEL"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "K_HEAP_MEM_POOL_SIZE=0"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PICOLIBC_LONG_LONG_PRINTF_SCANF"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "__LINUX_ERRNO_EXTENSIONS__"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "__PROGRAM_START"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "__ZEPHYR__=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/kernel/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/arch/arm/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/blinky2/debug/zephyr/include/generated/zephyr"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/blinky2/debug/zephyr/include/generated"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/soc/nxp/mcx"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/soc/nxp/mcx/mcxc/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zsdk/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpuart"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/drivers"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/modules/hal/cmsis_6/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/modules/cmsis_6/."
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/lib/libc/common/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "kobj_types_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "driver_validation_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "device_api_ld_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
+		}
+	],
+	"id" : "lib__posix__options::@5845db2516faee11c195",
+	"name" : "lib__posix__options",
+	"nameOnDisk" : "liblib__posix__options.a",
+	"paths" : 
+	{
+		"build" : "zephyr/lib/posix/options",
+		"source" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/lib/posix/options"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 13,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/misc/empty_file.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

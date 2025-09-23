@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/libmctp",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/modules/lib/libmctp/zephyr"
+	}
+}
