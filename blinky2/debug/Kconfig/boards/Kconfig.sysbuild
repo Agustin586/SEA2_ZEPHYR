@@ -1,2 +1,0 @@
-# Load Sysbuild board Kconfig descriptions.
-osource "D:/aguat/Documents/zephyr/nxp_zephyr/zephyr/boards/nxp/frdm_mcxc444/Kconfig.sysbuild"
