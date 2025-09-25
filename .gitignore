@@ -50,3 +50,10 @@ $RECYCLE.BIN/
 # =====================================
 # Si NO querés compartir configuración de VSCode:
 .vscode/
+
+# Ignorar basura de repos internos de Zephyr
+__repo__/
+modules/
+tools/
+bootloader/
+zephyr/
