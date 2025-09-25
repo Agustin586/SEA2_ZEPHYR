@@ -1,4 +1,4 @@
-# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr/subsys/modbus
+# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/subsys/modbus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

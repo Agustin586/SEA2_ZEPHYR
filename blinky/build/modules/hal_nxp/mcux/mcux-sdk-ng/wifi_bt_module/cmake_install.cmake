@@ -1,4 +1,4 @@
-# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/components/wifi_bt_module
+# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/components/wifi_bt_module
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

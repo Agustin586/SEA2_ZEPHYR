@@ -131,6 +131,28 @@ static inline int updatehub_reboot(void)
 #endif
 
 
+extern int z_impl_updatehub_report_error(void);
+
+__pinned_func
+static inline int updatehub_report_error(void)
+{
+#ifdef CONFIG_USERSPACE
+	if (z_syscall_trap()) {
+		return (int) arch_syscall_invoke0(K_SYSCALL_UPDATEHUB_REPORT_ERROR);
+	}
+#endif
+	compiler_barrier();
+	return z_impl_updatehub_report_error();
+}
+
+#if defined(CONFIG_TRACING_SYSCALL)
+#ifndef DISABLE_SYSCALL_TRACING
+
+#define updatehub_report_error() ({ 	int syscall__retval; 	sys_port_trace_syscall_enter(K_SYSCALL_UPDATEHUB_REPORT_ERROR, updatehub_report_error); 	syscall__retval = updatehub_report_error(); 	sys_port_trace_syscall_exit(K_SYSCALL_UPDATEHUB_REPORT_ERROR, updatehub_report_error, syscall__retval); 	syscall__retval; })
+#endif
+#endif
+
+
 #ifdef __cplusplus
 }
 #endif

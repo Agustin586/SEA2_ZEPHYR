@@ -93,6 +93,30 @@ static inline int adc_read_async(const struct device * dev, const struct adc_seq
 #endif
 
 
+extern int z_impl_adc_get_decoder(const struct device * dev, const struct adc_decoder_api ** api);
+
+__pinned_func
+static inline int adc_get_decoder(const struct device * dev, const struct adc_decoder_api ** api)
+{
+#ifdef CONFIG_USERSPACE
+	if (z_syscall_trap()) {
+		union { uintptr_t x; const struct device * val; } parm0 = { .val = dev };
+		union { uintptr_t x; const struct adc_decoder_api ** val; } parm1 = { .val = api };
+		return (int) arch_syscall_invoke2(parm0.x, parm1.x, K_SYSCALL_ADC_GET_DECODER);
+	}
+#endif
+	compiler_barrier();
+	return z_impl_adc_get_decoder(dev, api);
+}
+
+#if defined(CONFIG_TRACING_SYSCALL)
+#ifndef DISABLE_SYSCALL_TRACING
+
+#define adc_get_decoder(dev, api) ({ 	int syscall__retval; 	sys_port_trace_syscall_enter(K_SYSCALL_ADC_GET_DECODER, adc_get_decoder, dev, api); 	syscall__retval = adc_get_decoder(dev, api); 	sys_port_trace_syscall_exit(K_SYSCALL_ADC_GET_DECODER, adc_get_decoder, dev, api, syscall__retval); 	syscall__retval; })
+#endif
+#endif
+
+
 #ifdef __cplusplus
 }
 #endif

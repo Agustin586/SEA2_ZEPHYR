@@ -1,4 +1,4 @@
-# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr/subsys/portability
+# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/subsys/portability
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

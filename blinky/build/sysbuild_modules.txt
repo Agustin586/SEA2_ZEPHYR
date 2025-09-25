@@ -1,1 +1,1 @@
-"mcuboot":"D:/aguat/Documents/zephyr/zephyr_main/bootloader/mcuboot":"D:/aguat/Documents/zephyr/zephyr_main/bootloader/mcuboot/boot/zephyr/sysbuild"
+"mcuboot":"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/bootloader/mcuboot":"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/bootloader/mcuboot/boot/zephyr/sysbuild"

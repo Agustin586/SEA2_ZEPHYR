@@ -70,6 +70,9 @@ config ZEPHYR_HAL_RENESAS_MODULE
 config ZEPHYR_HAL_RPI_PICO_MODULE
    bool
    default y
+config ZEPHYR_HAL_SIFLI_MODULE
+   bool
+   default y
 config ZEPHYR_HAL_SILABS_MODULE
    bool
    default y
@@ -109,7 +112,13 @@ config ZEPHYR_LIBMCTP_MODULE
 config ZEPHYR_LIBMETAL_MODULE
    bool
    default y
+config ZEPHYR_LIBSBC_MODULE
+   bool
+   default y
 config ZEPHYR_LITTLEFS_MODULE
+   bool
+   default y
+config ZEPHYR_LORA_BASICS_MODEM_MODULE
    bool
    default y
 config ZEPHYR_LORAMAC_NODE_MODULE
@@ -125,6 +134,9 @@ config ZEPHYR_MCUBOOT_MODULE
    bool
    default y
 config ZEPHYR_MIPI_SYS_T_MODULE
+   bool
+   default y
+config ZEPHYR_NANOPB_MODULE
    bool
    default y
 config ZEPHYR_NRF_WIFI_MODULE
@@ -143,9 +155,6 @@ config ZEPHYR_PICOLIBC_MODULE
    bool
    default y
 config ZEPHYR_SEGGER_MODULE
-   bool
-   default y
-config ZEPHYR_TINYCRYPT_MODULE
    bool
    default y
 config ZEPHYR_TRUSTED_FIRMWARE_A_MODULE

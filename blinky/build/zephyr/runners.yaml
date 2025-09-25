@@ -12,7 +12,7 @@ debug-runner: linkserver
 
 # Common runner configuration values.
 config:
-  board_dir: D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444
+  board_dir: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444
   # Build outputs:
   elf_file: zephyr.elf
   bin_file: zephyr.bin

@@ -43,15 +43,15 @@ static inline int net_if_ipv6_addr_lookup_by_index(const struct in6_addr * addr)
 #endif
 
 
-extern bool z_impl_net_if_ipv6_addr_add_by_index(int index, struct in6_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime);
+extern bool z_impl_net_if_ipv6_addr_add_by_index(int index, const struct in6_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime);
 
 __pinned_func
-static inline bool net_if_ipv6_addr_add_by_index(int index, struct in6_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime)
+static inline bool net_if_ipv6_addr_add_by_index(int index, const struct in6_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime)
 {
 #ifdef CONFIG_USERSPACE
 	if (z_syscall_trap()) {
 		union { uintptr_t x; int val; } parm0 = { .val = index };
-		union { uintptr_t x; struct in6_addr * val; } parm1 = { .val = addr };
+		union { uintptr_t x; const struct in6_addr * val; } parm1 = { .val = addr };
 		union { uintptr_t x; enum net_addr_type val; } parm2 = { .val = addr_type };
 		union { uintptr_t x; uint32_t val; } parm3 = { .val = vlifetime };
 		return (bool) arch_syscall_invoke4(parm0.x, parm1.x, parm2.x, parm3.x, K_SYSCALL_NET_IF_IPV6_ADDR_ADD_BY_INDEX);
@@ -116,15 +116,15 @@ static inline int net_if_ipv4_addr_lookup_by_index(const struct in_addr * addr)
 #endif
 
 
-extern bool z_impl_net_if_ipv4_addr_add_by_index(int index, struct in_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime);
+extern bool z_impl_net_if_ipv4_addr_add_by_index(int index, const struct in_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime);
 
 __pinned_func
-static inline bool net_if_ipv4_addr_add_by_index(int index, struct in_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime)
+static inline bool net_if_ipv4_addr_add_by_index(int index, const struct in_addr * addr, enum net_addr_type addr_type, uint32_t vlifetime)
 {
 #ifdef CONFIG_USERSPACE
 	if (z_syscall_trap()) {
 		union { uintptr_t x; int val; } parm0 = { .val = index };
-		union { uintptr_t x; struct in_addr * val; } parm1 = { .val = addr };
+		union { uintptr_t x; const struct in_addr * val; } parm1 = { .val = addr };
 		union { uintptr_t x; enum net_addr_type val; } parm2 = { .val = addr_type };
 		union { uintptr_t x; uint32_t val; } parm3 = { .val = vlifetime };
 		return (bool) arch_syscall_invoke4(parm0.x, parm1.x, parm2.x, parm3.x, K_SYSCALL_NET_IF_IPV4_ADDR_ADD_BY_INDEX);

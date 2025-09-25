@@ -23,6 +23,7 @@
         "comparator_driver_api",
         "coredump_driver_api",
         "counter_driver_api",
+        "crc_driver_api",
         "dac_driver_api",
         "dai_driver_api",
         "display_driver_api",
@@ -54,6 +55,7 @@
         "mipi_dbi_driver_api",
         "mipi_dsi_driver_api",
         "mspi_driver_api",
+        "opamp_driver_api",
         "peci_driver_api",
         "ps2_driver_api",
         "ptp_clock_driver_api",
@@ -71,6 +73,7 @@
         "syscon_driver_api",
         "tee_driver_api",
         "video_driver_api",
+        "virtio_driver_api",
         "w1_driver_api",
         "wdt_driver_api",
         "can_transceiver_driver_api",
@@ -82,6 +85,8 @@
         "tgpio_driver_api",
         "pcie_ctrl_driver_api",
         "pcie_ep_driver_api",
+        "psi5_driver_api",
+        "sent_driver_api",
         "svc_driver_api",
         "uart_driver_api",
         "bc12_emul_driver_api",
@@ -90,7 +95,6 @@
         "tcpc_driver_api",
         "usbc_vbus_driver_api",
         "ivshmem_driver_api",
-        "ethphy_driver_api",
-        "virtio_driver_api"
+        "ethphy_driver_api"
     ]
 }

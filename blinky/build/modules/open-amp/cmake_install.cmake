@@ -1,4 +1,4 @@
-# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/modules/lib/open-amp
+# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/lib/open-amp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -32,6 +32,8 @@
 
 #define K_SYSCALL_DRIVER_COUNTER(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, counter, COUNTER)
 
+#define K_SYSCALL_DRIVER_CRC(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, crc, CRC)
+
 #define K_SYSCALL_DRIVER_DAC(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, dac, DAC)
 
 #define K_SYSCALL_DRIVER_DAI(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, dai, DAI)
@@ -94,6 +96,8 @@
 
 #define K_SYSCALL_DRIVER_MSPI(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, mspi, MSPI)
 
+#define K_SYSCALL_DRIVER_OPAMP(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, opamp, OPAMP)
+
 #define K_SYSCALL_DRIVER_PECI(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, peci, PECI)
 
 #define K_SYSCALL_DRIVER_PS2(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, ps2, PS2)
@@ -128,6 +132,8 @@
 
 #define K_SYSCALL_DRIVER_VIDEO(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, video, VIDEO)
 
+#define K_SYSCALL_DRIVER_VIRTIO(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, virtio, VIRTIO)
+
 #define K_SYSCALL_DRIVER_W1(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, w1, W1)
 
 #define K_SYSCALL_DRIVER_WDT(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, wdt, WDT)
@@ -150,6 +156,10 @@
 
 #define K_SYSCALL_DRIVER_PCIE_EP(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, pcie_ep, PCIE_EP)
 
+#define K_SYSCALL_DRIVER_PSI5(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, psi5, PSI5)
+
+#define K_SYSCALL_DRIVER_SENT(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, sent, SENT)
+
 #define K_SYSCALL_DRIVER_SVC(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, svc, SVC)
 
 #define K_SYSCALL_DRIVER_UART(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, uart, UART)
@@ -167,6 +177,4 @@
 #define K_SYSCALL_DRIVER_IVSHMEM(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, ivshmem, IVSHMEM)
 
 #define K_SYSCALL_DRIVER_ETHPHY(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, ethphy, ETHPHY)
-
-#define K_SYSCALL_DRIVER_VIRTIO(ptr, op) K_SYSCALL_DRIVER_GEN(ptr, op, virtio, VIRTIO)
 #endif /* DRIVER_VALIDATION_GEN_H */

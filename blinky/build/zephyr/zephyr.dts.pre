@@ -1,7 +1,7 @@
-# 0 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/misc/empty_file.c"
+# 0 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/misc/empty_file.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 1
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 1
 
 
 
@@ -10,34 +10,38 @@
 
 /dts-v1/;
 
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc444.dtsi" 1 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc444.dtsi" 1 3 4
 
 
 
 
 
 
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 1 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 1 3 4
 
 
 
 
 
 
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/common/mem.h" 1 3 4
-# 8 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/armv6-m.dtsi" 1 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/common/mem.h" 1 3 4
+# 8 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/common/freq.h" 1 3 4
+# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/armv6-m.dtsi" 1 3 4
 
 
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/common/skeleton.dtsi" 1 3 4
-# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/common/skeleton.dtsi" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/common/skeleton.dtsi" 1 3 4
+# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/common/skeleton.dtsi" 3 4
 / {
  #address-cells = <1>;
  #size-cells = <1>;
- chosen { };
- aliases { };
+
+ chosen {};
+
+ aliases {};
 };
-# 4 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/armv6-m.dtsi" 2 3 4
+# 4 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/armv6-m.dtsi" 2 3 4
 
 / {
  soc {
@@ -61,50 +65,56 @@
   };
  };
 };
-# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/adc/adc.h" 1 3 4
-# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/adc/adc.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/dt-util.h" 1 3 4
-# 19 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/dt-util.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_macro.h" 1 3 4
-# 34 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_macro.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 1 3 4
-# 18 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_loops.h" 1 3 4
-# 1083 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_loops.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_listify.h" 1 3 4
-# 1084 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_loops.h" 2 3 4
-# 19 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
-# 162 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal_is_eq.h" 1 3 4
-# 163 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
-# 193 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal_util_inc.h" 1 3 4
-# 194 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 10 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/adc/adc.h" 1 3 4
+# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/adc/adc.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/dt-util.h" 1 3 4
+# 19 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/dt-util.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_macro.h" 1 3 4
+# 34 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_macro.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 1 3 4
+# 18 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_loops.h" 1 3 4
+# 1083 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_loops.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_listify.h" 1 3 4
+# 1084 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_loops.h" 2 3 4
+# 19 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 162 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal_is_eq.h" 1 3 4
+# 163 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 193 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal_util_inc.h" 1 3 4
+# 194 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
 
 
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal_util_dec.h" 1 3 4
-# 197 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal_util_dec.h" 1 3 4
+# 197 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
 
 
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal_util_x2.h" 1 3 4
-# 200 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
-# 35 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/sys/util_macro.h" 2 3 4
-# 20 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/dt-util.h" 2 3 4
-# 10 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/adc/adc.h" 2 3 4
-# 10 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/clock/kinetis_sim.h" 1 3 4
-# 11 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/clock/kinetis_mcg.h" 1 3 4
-# 12 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/gpio/gpio.h" 1 3 4
-# 13 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/i2c/i2c.h" 1 3 4
-# 14 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/pwm/pwm.h" 1 3 4
-# 15 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal_util_x2.h" 1 3 4
+# 200 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_internal.h" 2 3 4
+# 35 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/sys/util_macro.h" 2 3 4
+# 20 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/dt-util.h" 2 3 4
+# 10 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/adc/adc.h" 2 3 4
+# 11 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/clock/kinetis_sim.h" 1 3 4
+# 12 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/clock/kinetis_mcg.h" 1 3 4
+# 13 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/gpio/gpio.h" 1 3 4
+# 14 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/i2c/i2c.h" 1 3 4
+# 15 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/pwm/pwm.h" 1 3 4
+# 16 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/regulator/nxp_vref.h" 1 3 4
+# 17 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc_common.dtsi" 2 3 4
 
 / {
+ aliases {
+  watchdog0 = &cop;
+ };
+
  chosen {
   zephyr,flash-controller = &ftfa;
  };
@@ -164,7 +174,7 @@
 
    flash0: flash@0 {
     compatible = "soc-nv-flash";
-    erase-block-size = <1024>;
+    erase-block-size = <((1) * 1024)>;
     write-block-size = <4>;
    };
   };
@@ -195,6 +205,14 @@
     clock-div = <2>;
     #clock-cells = <0>;
    };
+  };
+
+  cop: watchdog@40047000 {
+   compatible = "nxp,cop";
+   reg = <0x40047000 0x8>;
+   status = "disabled";
+   clk-source = <0>;
+   timeout-cycles = <32>;
   };
 
   porta: pinmux@40049000 {
@@ -274,12 +292,13 @@
    nxp,kinetis-port = <&porte>;
   };
 
-  adc0: adc@4003b000{
+  adc0: adc@4003b000 {
    compatible = "nxp,kinetis-adc16";
    reg = <0x4003b000 0x70>;
    interrupts = <15 0>;
    status = "disabled";
    #io-channel-cells = <1>;
+   has-differential-mode;
   };
 
   i2c0: i2c@40066000 {
@@ -412,13 +431,40 @@
     status = "disabled";
    };
   };
+
+  cmp: cmp@40073000 {
+   compatible = "nxp,cmp";
+   reg = <0x40073000 0x1000>;
+   interrupts = <16 0>;
+   status = "disabled";
+   clocks = <&sim 4323 0 0>;
+  };
+
+  vref: vref@40074000 {
+   compatible = "nxp,vrefv1";
+   reg = <0x40074000 0x100>;
+   status = "disabled";
+   clocks = <&sim 4324 0 0>;
+   chop-oscillator-en;
+   current-compensation-en;
+   internal-voltage-regulator-en;
+   bandgap-startup-time-us = <3500>;
+   buffer-startup-delay-us = <100>;
+   regulator-init-microvolt = <1175500>;
+   regulator-min-microvolt = <1175500>;
+   regulator-max-microvolt = <1207000>;
+   regulator-initial-mode = <0>;
+   regulator-allowed-modes = <0
+      1
+      2>;
+  };
  };
 };
 
 &nvic {
  arm,num-irq-priority-bits = <2>;
 };
-# 8 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc444.dtsi" 2 3 4
+# 8 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/dts/arm/nxp/nxp_mcxc444.dtsi" 2 3 4
 
 &sram0 {
  reg = <0x1FFFE000 ((32) * 1024)>;
@@ -427,17 +473,16 @@
 &flash0 {
  reg = <0 ((256) * 1024)>;
 };
-# 10 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 2
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444-pinctrl.dtsi" 1
+# 10 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 2
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444-pinctrl.dtsi" 1
 
 
 
 
 
 
-
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/modules/hal/nxp/dts/nxp/mcx/MCXC444VLH-pinctrl.h" 1 3 4
-# 9 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444-pinctrl.dtsi" 2
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/dts/nxp/mcx/MCXC444VLH-pinctrl.h" 1 3 4
+# 8 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444-pinctrl.dtsi" 2
 
 &pinctrl {
  pinmux_adc0: pinmux_adc0 {
@@ -448,44 +493,48 @@
    slew-rate = "slow";
   };
  };
+
  pinmux_i2c0: pinmux_i2c0 {
   group0 {
    pinmux = <((((('E') - 'A') & 0xF) << 28) | (((24) & 0x3F) << 22) | (((5) & 0x7) << 8))>,
-    <((((('E') - 'A') & 0xF) << 28) | (((25) & 0x3F) << 22) | (((5) & 0x7) << 8))>;
+     <((((('E') - 'A') & 0xF) << 28) | (((25) & 0x3F) << 22) | (((5) & 0x7) << 8))>;
    drive-strength = "low";
    drive-open-drain;
    slew-rate = "fast";
   };
  };
+
  pinmux_lpuart0: pinmux_lpuart0 {
   group0 {
    pinmux = <((((('A') - 'A') & 0xF) << 28) | (((1) & 0x3F) << 22) | (((2) & 0x7) << 8))>,
-    <((((('A') - 'A') & 0xF) << 28) | (((2) & 0x3F) << 22) | (((2) & 0x7) << 8))>;
+     <((((('A') - 'A') & 0xF) << 28) | (((2) & 0x3F) << 22) | (((2) & 0x7) << 8))>;
    drive-strength = "low";
    slew-rate = "slow";
   };
  };
+
  pinmux_uart2: pinmux_uart2 {
   group0 {
    pinmux = <((((('D') - 'A') & 0xF) << 28) | (((2) & 0x3F) << 22) | (((3) & 0x7) << 8))>,
-    <((((('D') - 'A') & 0xF) << 28) | (((3) & 0x3F) << 22) | (((3) & 0x7) << 8))>;
+     <((((('D') - 'A') & 0xF) << 28) | (((3) & 0x3F) << 22) | (((3) & 0x7) << 8))>;
    drive-strength = "low";
    slew-rate = "slow";
   };
  };
+
  pinmux_tpm0: pinmux_tpm0 {
   group0 {
    pinmux = <((((('E') - 'A') & 0xF) << 28) | (((29) & 0x3F) << 22) | (((3) & 0x7) << 8))>,
-    <((((('E') - 'A') & 0xF) << 28) | (((31) & 0x3F) << 22) | (((3) & 0x7) << 8))>,
-    <((((('D') - 'A') & 0xF) << 28) | (((5) & 0x3F) << 22) | (((4) & 0x7) << 8))>;
+     <((((('E') - 'A') & 0xF) << 28) | (((31) & 0x3F) << 22) | (((3) & 0x7) << 8))>,
+     <((((('D') - 'A') & 0xF) << 28) | (((5) & 0x3F) << 22) | (((4) & 0x7) << 8))>;
    drive-strength = "low";
    slew-rate = "slow";
   };
  };
 };
-# 11 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 2
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
-# 12 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 2
+# 11 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 2
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
+# 12 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/boards/nxp/frdm_mcxc444/frdm_mcxc444.dts" 2
 
 / {
  model = "NXP FRDM-MCXC444 board";
@@ -516,14 +565,17 @@
 
  leds {
   compatible = "gpio-leds";
+
   red_led: led_0 {
    gpios = <&gpioe 31 (1 << 0)>;
    label = "Red LED";
   };
+
   green_led: led_1 {
    gpios = <&gpiod 5 (1 << 0)>;
    label = "Green LED";
   };
+
   blue_led: led_2 {
    gpios = <&gpioe 29 (1 << 0)>;
    label = "Blue LED";
@@ -533,14 +585,17 @@
  pwmleds {
   compatible = "pwm-leds";
   status = "disabled";
+
   red_pwm_led: pwm_led_0 {
    pwms = <&tpm0 4 (((20) * 1000UL) * 1000UL) (1 << 0)>;
    label = "PWM Red LED";
   };
+
   green_pwm_led: pwm_led_1 {
    pwms = <&tpm0 5 (((20) * 1000UL) * 1000UL) (1 << 0)>;
    label = "PWM Green LED";
   };
+
   blue_pwm_led: pwm_led_2 {
    pwms = <&tpm0 2 (((20) * 1000UL) * 1000UL) (1 << 0)>;
    label = "PWM Blue LED";
@@ -549,11 +604,13 @@
 
  gpio_keys {
   compatible = "gpio-keys";
+
   user_button_2: button_2 {
    label = "User SW2";
    gpios = <&gpioc 3 (1 << 0)>;
    zephyr,code = <11>;
   };
+
   user_button_3: button_3 {
    label = "User SW3";
    gpios = <&gpioa 4 (1 << 0)>;
@@ -568,7 +625,7 @@
 };
 
 &cpu0 {
- clock-frequency = <48000000>;
+ clock-frequency = <(((48) * 1000) * 1000)>;
 };
 
 &osc {
@@ -653,7 +710,7 @@ i2c0: &i2c0 {
  status = "okay";
  pinctrl-0 = <&pinmux_tpm0>;
  pinctrl-names = "default";
- clocks = <&sim 8 0x103C 24>;
+ clocks = <&sim 18 0x103C 24>;
 };
 
 zephyr_udc0: &usb {
@@ -661,4 +718,4 @@ zephyr_udc0: &usb {
  num-bidir-endpoints = <8>;
 };
 # 0 "<command-line>" 2
-# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr/misc/empty_file.c"
+# 1 "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/misc/empty_file.c"

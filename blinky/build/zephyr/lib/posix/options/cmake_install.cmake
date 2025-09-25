@@ -1,4 +1,4 @@
-# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr/lib/posix/options
+# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/lib/posix/options
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

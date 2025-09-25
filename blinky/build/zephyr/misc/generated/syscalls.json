@@ -593,6 +593,14 @@
     ],
     [
         [
+            "void k_thread_absolute_deadline_set",
+            "k_tid_t thread, int deadline"
+        ],
+        "kernel.h",
+        true
+    ],
+    [
+        [
             "void k_reschedule",
             "void"
         ],
@@ -865,6 +873,22 @@
     ],
     [
         [
+            "uint32_t k_event_wait_safe",
+            "struct k_event *event, uint32_t events,\n\t\t\t\t     bool reset, k_timeout_t timeout"
+        ],
+        "kernel.h",
+        true
+    ],
+    [
+        [
+            "uint32_t k_event_wait_all_safe",
+            "struct k_event *event, uint32_t events,\n\t\t\t\t\t bool reset, k_timeout_t timeout"
+        ],
+        "kernel.h",
+        true
+    ],
+    [
+        [
             "int32_t k_stack_alloc_init",
             "struct k_stack *stack,\n\t\t\t\t   uint32_t num_entries"
         ],
@@ -1001,6 +1025,14 @@
     ],
     [
         [
+            "int k_msgq_put_front",
+            "struct k_msgq *msgq, const void *data"
+        ],
+        "kernel.h",
+        true
+    ],
+    [
+        [
             "int k_msgq_get",
             "struct k_msgq *msgq, void *data, k_timeout_t timeout"
         ],
@@ -1059,62 +1091,6 @@
         [
             "void k_pipe_init",
             "struct k_pipe *pipe, uint8_t *buffer, size_t buffer_size"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "int k_pipe_alloc_init",
-            "struct k_pipe *pipe, size_t size"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "int k_pipe_put",
-            "struct k_pipe *pipe, const void *data,\n\t\t\t size_t bytes_to_write, size_t *bytes_written,\n\t\t\t size_t min_xfer, k_timeout_t timeout"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "int k_pipe_get",
-            "struct k_pipe *pipe, void *data,\n\t\t\t size_t bytes_to_read, size_t *bytes_read,\n\t\t\t size_t min_xfer, k_timeout_t timeout"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "size_t k_pipe_read_avail",
-            "struct k_pipe *pipe"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "size_t k_pipe_write_avail",
-            "struct k_pipe *pipe"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "void k_pipe_flush",
-            "struct k_pipe *pipe"
-        ],
-        "kernel.h",
-        true
-    ],
-    [
-        [
-            "void k_pipe_buffer_flush",
-            "struct k_pipe *pipe"
         ],
         "kernel.h",
         true
@@ -1395,6 +1371,14 @@
         [
             "int adc_read_async",
             "const struct device *dev,\n\t\t\t     const struct adc_sequence *sequence,\n\t\t\t     struct k_poll_signal *async"
+        ],
+        "adc.h",
+        false
+    ],
+    [
+        [
+            "int adc_get_decoder",
+            "const struct device *dev,\n\t\t\t\tconst struct adc_decoder_api **api"
         ],
         "adc.h",
         false
@@ -2053,6 +2037,30 @@
             "const struct device *dev,\n\t\t\t\t\t    uint32_t flags"
         ],
         "counter.h",
+        false
+    ],
+    [
+        [
+            "int crc_begin",
+            "const struct device *dev, struct crc_ctx *ctx"
+        ],
+        "crc.h",
+        false
+    ],
+    [
+        [
+            "int crc_update",
+            "const struct device *dev, struct crc_ctx *ctx, const void *buffer,\n\t\t\t size_t bufsize"
+        ],
+        "crc.h",
+        false
+    ],
+    [
+        [
+            "int crc_finish",
+            "const struct device *dev, struct crc_ctx *ctx"
+        ],
+        "crc.h",
         false
     ],
     [
@@ -3001,6 +3009,14 @@
     ],
     [
         [
+            "int opamp_set_gain",
+            "const struct device *dev, enum opamp_gain gain"
+        ],
+        "opamp.h",
+        false
+    ],
+    [
+        [
             "int peci_config",
             "const struct device *dev, uint32_t bitrate"
         ],
@@ -3370,7 +3386,7 @@
     [
         [
             "int sensor_reconfigure_read_iodev",
-            "struct rtio_iodev *iodev, const struct device *sensor,\n\t\t\t\t\t    const struct sensor_chan_spec *channels,\n\t\t\t\t\t    size_t num_channels"
+            "const struct rtio_iodev *iodev,\n\t\t\t\t\t    const struct device *sensor,\n\t\t\t\t\t    const struct sensor_chan_spec *channels,\n\t\t\t\t\t    size_t num_channels"
         ],
         "sensor.h",
         false
@@ -3969,6 +3985,38 @@
     ],
     [
         [
+            "int psi5_start_sync",
+            "const struct device *dev, uint8_t channel"
+        ],
+        "psi5.h",
+        false
+    ],
+    [
+        [
+            "int psi5_stop_sync",
+            "const struct device *dev, uint8_t channel"
+        ],
+        "psi5.h",
+        false
+    ],
+    [
+        [
+            "int psi5_send",
+            "const struct device *dev, uint8_t channel, const uint64_t data,\n\t\t\tk_timeout_t timeout, psi5_tx_callback_t callback, void *user_data"
+        ],
+        "psi5.h",
+        false
+    ],
+    [
+        [
+            "int psi5_register_callback",
+            "const struct device *dev, uint8_t channel,\n\t\t\t\t     struct psi5_rx_callback_configs callback_configs"
+        ],
+        "psi5.h",
+        false
+    ],
+    [
+        [
             "int maxim_ds3231_req_syncpoint",
             "const struct device *dev,\n\t\t\t\t\t struct k_poll_signal *signal"
         ],
@@ -3981,6 +4029,30 @@
             "const struct device *dev,\n\t\t\t\t\t struct maxim_ds3231_syncpoint *syncpoint"
         ],
         "maxim_ds3231.h",
+        false
+    ],
+    [
+        [
+            "int sent_start_listening",
+            "const struct device *dev, uint8_t channel"
+        ],
+        "sent.h",
+        false
+    ],
+    [
+        [
+            "int sent_stop_listening",
+            "const struct device *dev, uint8_t channel"
+        ],
+        "sent.h",
+        false
+    ],
+    [
+        [
+            "int sent_register_callback",
+            "const struct device *dev, uint8_t channel,\n\t\t\t\t     struct sent_rx_callback_configs callback_configs"
+        ],
+        "sent.h",
         false
     ],
     [
@@ -4169,6 +4241,14 @@
     ],
     [
         [
+            "int renesas_ra_ctsu_group_configure",
+            "const struct device *dev,\n\t\t\t\t\t      const struct renesas_ra_ctsu_touch_cfg *cfg"
+        ],
+        "input_renesas_ra_ctsu.h",
+        false
+    ],
+    [
+        [
             "void k_mem_paging_stats_get",
             "struct k_mem_paging_stats_t *stats"
         ],
@@ -4257,6 +4337,14 @@
     ],
     [
         [
+            "int updatehub_report_error",
+            "void"
+        ],
+        "updatehub.h",
+        false
+    ],
+    [
+        [
             "const struct device *net_eth_get_ptp_clock_by_index",
             "int index"
         ],
@@ -4274,7 +4362,7 @@
     [
         [
             "bool net_if_ipv6_addr_add_by_index",
-            "int index,\n\t\t\t\t\t     struct in6_addr *addr,\n\t\t\t\t\t     enum net_addr_type addr_type,\n\t\t\t\t\t     uint32_t vlifetime"
+            "int index,\n\t\t\t\t\t     const struct in6_addr *addr,\n\t\t\t\t\t     enum net_addr_type addr_type,\n\t\t\t\t\t     uint32_t vlifetime"
         ],
         "net_if.h",
         false
@@ -4298,7 +4386,7 @@
     [
         [
             "bool net_if_ipv4_addr_add_by_index",
-            "int index,\n\t\t\t\t\t     struct in_addr *addr,\n\t\t\t\t\t     enum net_addr_type addr_type,\n\t\t\t\t\t     uint32_t vlifetime"
+            "int index,\n\t\t\t\t\t     const struct in_addr *addr,\n\t\t\t\t\t     enum net_addr_type addr_type,\n\t\t\t\t\t     uint32_t vlifetime"
         ],
         "net_if.h",
         false
@@ -4611,6 +4699,22 @@
         [
             "int rtio_submit",
             "struct rtio *r, uint32_t wait_count"
+        ],
+        "rtio.h",
+        false
+    ],
+    [
+        [
+            "struct rtio *rtio_pool_acquire",
+            "struct rtio_pool *pool"
+        ],
+        "rtio.h",
+        false
+    ],
+    [
+        [
+            "void rtio_pool_release",
+            "struct rtio_pool *pool, struct rtio *r"
         ],
         "rtio.h",
         false

@@ -1,4 +1,4 @@
-# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/modules/hal/openisa
+# Install script for directory: D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/openisa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
