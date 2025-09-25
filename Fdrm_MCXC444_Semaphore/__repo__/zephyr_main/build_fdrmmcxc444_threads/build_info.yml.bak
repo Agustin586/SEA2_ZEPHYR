@@ -1,5 +1,0 @@
-west:
-  command: C:\Users\aguat\AppData\Roaming\Python\Python313\Scripts\west build -b frdm_mcxc444
-    -p always -d build_fdrmmcxc444_threads D:/aguat/Documents/GitHub/Zephyr-SEA2/fdrmmcxc444_threads
-  topdir: D:\aguat\Documents\zephyr\zephyr_main
-  version: 1.4.0
