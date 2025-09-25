@@ -1,0 +1,52 @@
+# =====================================
+# ARCHIVOS Y CARPETAS DE COMPILACIÓN
+# =====================================
+
+# Carpeta de build (nombre por defecto)
+build/
+build-*/
+
+# Archivos CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+zephyr/
+
+# Archivos ninja
+.ninja_deps
+.ninja_log
+rules.ninja
+
+# Archivos de configuración generados
+.prj.conf.cmd
+.prj.conf.old
+prj.conf.orig
+*.config
+*.defconfig
+
+# Archivos de logs
+*.log
+
+# =====================================
+# ARCHIVOS TEMPORALES
+# =====================================
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# =====================================
+# WINDOWS / SISTEMA
+# =====================================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =====================================
+# VISUAL STUDIO CODE (opcional)
+# =====================================
+# Si NO querés compartir configuración de VSCode:
+.vscode/
