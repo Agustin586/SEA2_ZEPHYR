@@ -6,7 +6,7 @@
   "multicoreType": "none",
   "projectType": "zephyr-freestanding",
   "sdk": {
-    "version": "4.1.99",
-    "path": "d:\\aguat\\Documents\\zephyr\\zephyr_main"
+    "path": "d:\\aguat\\Documents\\zephyr\\zephyr_main\\zephyr_main\\zephyr_main",
+    "version": "4.2.99"
   }
 }
