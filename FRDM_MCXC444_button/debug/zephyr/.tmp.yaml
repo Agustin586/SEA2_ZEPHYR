@@ -1,0 +1,399 @@
+---
+- '#address-cells': [[0x1]]
+  '#size-cells': [[0x1]]
+  model: ["NXP FRDM-MCXC444 board"]
+  compatible: ["nxp,mcxc444", "nxp,mcx"]
+  chosen:
+    zephyr,flash-controller: ["/soc/flash-controller@40020000"]
+    zephyr,sram: ["/memory@1FFFF000"]
+    zephyr,flash: ["/soc/flash-controller@40020000/flash@0"]
+    zephyr,console: ["/soc/uart@40054000"]
+    zephyr,shell-uart: ["/soc/uart@40054000"]
+  aliases:
+    watchdog0: ["/soc/watchdog@40047000"]
+    led0: ["/leds/led_0"]
+    led1: ["/leds/led_1"]
+    led2: ["/leds/led_2"]
+    pwm-led0: ["/pwmleds/pwm_led_0"]
+    pwm-led1: ["/pwmleds/pwm_led_1"]
+    pwm-led2: ["/pwmleds/pwm_led_2"]
+    red-pwm-led: ["/pwmleds/pwm_led_0"]
+    green-pwm-led: ["/pwmleds/pwm_led_1"]
+    blue-pwm-led: ["/pwmleds/pwm_led_2"]
+    sw0: ["/gpio_keys/button_2"]
+    sw1: ["/gpio_keys/button_3"]
+    accel0: ["/soc/i2c@40066000/fxls8974@18"]
+    pwm-0: ["/soc/pwm@40038000"]
+  soc:
+    '#address-cells': [[0x1]]
+    '#size-cells': [[0x1]]
+    compatible: ["simple-bus"]
+    interrupt-parent: [[!phandle 0x1]]
+    ranges: true
+    interrupt-controller@e000e100:
+      '#address-cells': [[0x1]]
+      compatible: ["arm,v6m-nvic"]
+      reg: [[0xe000e100, 0xc00]]
+      interrupt-controller: true
+      '#interrupt-cells': [[0x2]]
+      arm,num-irq-priority-bits: [[0x2]]
+      phandle: [[0x1]]
+    timer@e000e010:
+      compatible: ["arm,armv6m-systick"]
+      reg: [[0xe000e010, 0x10]]
+    flash-controller@40020000:
+      compatible: ["nxp,kinetis-ftfa"]
+      reg: [[0x40020000, 0x14]]
+      interrupts: [[0x5, 0x0]]
+      status: ["disabled"]
+      '#address-cells': [[0x1]]
+      '#size-cells': [[0x1]]
+      fsec: [[0xfe]]
+      fopt: [[0x3d]]
+      config-field-offset: [[0x400]]
+      flash@0:
+        compatible: ["soc-nv-flash"]
+        erase-block-size: [[0x400]]
+        write-block-size: [[0x4]]
+        reg: [[0x0, 0x40000]]
+    clock-controller@40064000:
+      compatible: ["nxp,kinetis-mcg"]
+      reg: [[0x40064000, 0xd]]
+      fcrdiv: [[0x0]]
+      lircdiv2: [[0x0]]
+      '#clock-cells': [[0x1]]
+      phandle: [[0x2]]
+    sim@40047000:
+      compatible: ["nxp,kinetis-sim"]
+      reg: [[0x40047000, 0x1060]]
+      '#clock-cells': [[0x3]]
+      pllfll-select: [[0x1]]
+      er32k-select: [[0x0]]
+      phandle: [[0x3]]
+      core_clk:
+        compatible: ["fixed-factor-clock"]
+        clocks: [[!phandle 0x2, 0x1]]
+        clock-div: [[0x1]]
+        '#clock-cells': [[0x0]]
+      flash_clk:
+        compatible: ["fixed-factor-clock"]
+        clocks: [[!phandle 0x2, 0x1]]
+        clock-div: [[0x2]]
+        '#clock-cells': [[0x0]]
+    watchdog@40047000:
+      compatible: ["nxp,cop"]
+      reg: [[0x40047000, 0x8]]
+      status: ["disabled"]
+      clk-source: [[0x0]]
+      timeout-cycles: [[0x20]]
+    pinmux@40049000:
+      compatible: ["nxp,port-pinmux"]
+      reg: [[0x40049000, 0xd0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1038, 0x9]]
+      phandle: [[0x4]]
+    pinmux@4004a000:
+      compatible: ["nxp,port-pinmux"]
+      reg: [[0x4004a000, 0xd0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1038, 0xa]]
+      phandle: [[0x5]]
+    pinmux@4004b000:
+      compatible: ["nxp,port-pinmux"]
+      reg: [[0x4004b000, 0xd0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1038, 0xb]]
+      phandle: [[0x6]]
+    pinmux@4004c000:
+      compatible: ["nxp,port-pinmux"]
+      reg: [[0x4004c000, 0xd0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1038, 0xc]]
+      phandle: [[0x7]]
+    pinmux@4004d000:
+      compatible: ["nxp,port-pinmux"]
+      reg: [[0x4004d000, 0xd0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1038, 0xd]]
+      phandle: [[0x8]]
+    gpio@400ff000:
+      compatible: ["nxp,kinetis-gpio"]
+      reg: [[0x400ff000, 0x40]]
+      interrupts: [[0x1e, 0x2]]
+      gpio-controller: true
+      '#gpio-cells': [[0x2]]
+      nxp,kinetis-port: [[!phandle 0x4]]
+      status: ["okay"]
+      phandle: [[0x13]]
+    gpio@400ff040:
+      compatible: ["nxp,kinetis-gpio"]
+      reg: [[0x400ff040, 0x40]]
+      gpio-controller: true
+      '#gpio-cells': [[0x2]]
+      nxp,kinetis-port: [[!phandle 0x5]]
+      status: ["okay"]
+    gpio@400ff080:
+      compatible: ["nxp,kinetis-gpio"]
+      reg: [[0x400ff080, 0x40]]
+      interrupts: [[0x1f, 0x2]]
+      gpio-controller: true
+      '#gpio-cells': [[0x2]]
+      nxp,kinetis-port: [[!phandle 0x6]]
+      status: ["okay"]
+      phandle: [[0x12]]
+    gpio@400ff0c0:
+      compatible: ["nxp,kinetis-gpio"]
+      reg: [[0x400ff0c0, 0x40]]
+      gpio-controller: true
+      '#gpio-cells': [[0x2]]
+      nxp,kinetis-port: [[!phandle 0x7]]
+      status: ["okay"]
+      phandle: [[0xb]]
+    gpio@400ff100:
+      compatible: ["nxp,kinetis-gpio"]
+      reg: [[0x400ff100, 0x40]]
+      gpio-controller: true
+      '#gpio-cells': [[0x2]]
+      nxp,kinetis-port: [[!phandle 0x8]]
+      status: ["okay"]
+      phandle: [[0x10]]
+    adc@4003b000:
+      compatible: ["nxp,kinetis-adc16"]
+      reg: [[0x4003b000, 0x70]]
+      interrupts: [[0xf, 0x0]]
+      '#io-channel-cells': [[0x1]]
+      has-differential-mode: true
+      status: ["okay"]
+      pinctrl-0: [[!phandle 0x9]]
+      pinctrl-names: ["default"]
+      phandle: [[0xf]]
+    i2c@40066000:
+      compatible: ["nxp,kinetis-i2c"]
+      clock-frequency: [[0x186a0]]
+      '#address-cells': [[0x1]]
+      '#size-cells': [[0x0]]
+      reg: [[0x40066000, 0x1000]]
+      interrupts: [[0x8, 0x0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1034, 0x6]]
+      status: ["okay"]
+      pinctrl-0: [[!phandle 0xa]]
+      pinctrl-names: ["default"]
+      fxls8974@18:
+        status: ["okay"]
+        compatible: ["nxp,fxls8974"]
+        reg: [[0x18]]
+        int1-gpios: [[!phandle 0xb, 0x1, 0x1]]
+    i2c@40067000:
+      compatible: ["nxp,kinetis-i2c"]
+      clock-frequency: [[0x186a0]]
+      '#address-cells': [[0x1]]
+      '#size-cells': [[0x0]]
+      reg: [[0x40067000, 0x1000]]
+      interrupts: [[0x9, 0x0]]
+      clocks: [[!phandle 0x3, 0x2, 0x1034, 0x7]]
+      status: ["disabled"]
+    usbd@40072000:
+      compatible: ["nxp,kinetis-usbd"]
+      reg: [[0x40072000, 0x1000]]
+      interrupts: [[0x18, 0x1]]
+      interrupt-names: ["usb"]
+      status: ["okay"]
+      num-bidir-endpoints: [[0x8]]
+    uart@40054000:
+      compatible: ["nxp,lpuart"]
+      reg: [[0x40054000, 0x1000]]
+      interrupts: [[0xc, 0x0]]
+      clocks: [[!phandle 0x3, 0x12, 0x1038, 0x14]]
+      status: ["okay"]
+      current-speed: [[0x1c200]]
+      pinctrl-0: [[!phandle 0xc]]
+      pinctrl-names: ["default"]
+    uart@40055000:
+      compatible: ["nxp,lpuart"]
+      reg: [[0x40055000, 0x1000]]
+      interrupts: [[0xd, 0x0]]
+      clocks: [[!phandle 0x3, 0x12, 0x1038, 0x15]]
+      status: ["disabled"]
+    uart@4006c000:
+      compatible: ["nxp,kinetis-uart"]
+      reg: [[0x4006c000, 0x1000]]
+      interrupts: [[0xe, 0x0]]
+      interrupt-names: ["status"]
+      clocks: [[!phandle 0x3, 0x2, 0x1034, 0xc]]
+      status: ["disabled"]
+      current-speed: [[0x1c200]]
+      pinctrl-0: [[!phandle 0xd]]
+      pinctrl-names: ["default"]
+    pwm@40038000:
+      compatible: ["nxp,kinetis-tpm"]
+      reg: [[0x40038000, 0x88]]
+      interrupts: [[0x11, 0x0]]
+      prescaler: [[0x10]]
+      '#pwm-cells': [[0x3]]
+      status: ["okay"]
+      pinctrl-0: [[!phandle 0xe]]
+      pinctrl-names: ["default"]
+      clocks: [[!phandle 0x3, 0x12, 0x103c, 0x18]]
+      phandle: [[0x11]]
+    pwm@40039000:
+      compatible: ["nxp,kinetis-tpm"]
+      reg: [[0x40039000, 0x88]]
+      interrupts: [[0x12, 0x0]]
+      clocks: [[!phandle 0x3, 0x12, 0x103c, 0x19]]
+      prescaler: [[0x10]]
+      status: ["disabled"]
+      '#pwm-cells': [[0x3]]
+    pwm@4003a000:
+      compatible: ["nxp,kinetis-tpm"]
+      reg: [[0x4003a000, 0x88]]
+      interrupts: [[0x13, 0x0]]
+      clocks: [[!phandle 0x3, 0x12, 0x103c, 0x1a]]
+      prescaler: [[0x10]]
+      status: ["disabled"]
+      '#pwm-cells': [[0x3]]
+    lptmr@40040000:
+      compatible: ["nxp,lptmr"]
+      reg: [[0x40040000, 0x1000]]
+      interrupts: [[0x1c, 0x0]]
+      clock-frequency: [[0x3e8]]
+      prescaler: [[0x1]]
+      prescale-glitch-filter: [[0x1]]
+      clk-source: [[0x1]]
+      resolution: [[0x10]]
+      status: ["okay"]
+    rtc@4003d000:
+      compatible: ["nxp,rtc"]
+      reg: [[0x4003d000, 0x1000]]
+      interrupts: [[0x14, 0x0], [0x15, 0x0]]
+      interrupt-names: ["alarm", "seconds"]
+      clock-frequency: [[0x8000]]
+      prescaler: [[0x8000]]
+      status: ["okay"]
+    pit@40037000:
+      compatible: ["nxp,pit"]
+      reg: [[0x40037000, 0x1000]]
+      clocks: [[!phandle 0x3, 0x2, 0x103c, 0x17]]
+      interrupts: [[0x16, 0x0]]
+      max-load-value: [[0xffffffff]]
+      '#address-cells': [[0x1]]
+      '#size-cells': [[0x0]]
+      status: ["okay"]
+      pit0_channel@0:
+        compatible: ["nxp,pit-channel"]
+        reg: [[0x0]]
+        status: ["okay"]
+      pit0_channel@1:
+        compatible: ["nxp,pit-channel"]
+        reg: [[0x1]]
+        status: ["okay"]
+    cmp@40073000:
+      compatible: ["nxp,cmp"]
+      reg: [[0x40073000, 0x1000]]
+      interrupts: [[0x10, 0x0]]
+      status: ["disabled"]
+      clocks: [[!phandle 0x3, 0x10e3, 0x0, 0x0]]
+    vref@40074000:
+      compatible: ["nxp,vrefv1"]
+      reg: [[0x40074000, 0x100]]
+      status: ["disabled"]
+      clocks: [[!phandle 0x3, 0x10e4, 0x0, 0x0]]
+      chop-oscillator-en: true
+      current-compensation-en: true
+      internal-voltage-regulator-en: true
+      bandgap-startup-time-us: [[0xdac]]
+      buffer-startup-delay-us: [[0x64]]
+      regulator-init-microvolt: [[0x11efcc]]
+      regulator-min-microvolt: [[0x11efcc]]
+      regulator-max-microvolt: [[0x126ad8]]
+      regulator-initial-mode: [[0x0]]
+      regulator-allowed-modes: [[0x0, 0x1, 0x2]]
+  cpus:
+    '#address-cells': [[0x1]]
+    '#size-cells': [[0x0]]
+    cpu@0:
+      device_type: ["cpu"]
+      compatible: ["arm,cortex-m0+"]
+      reg: [[0x0]]
+      clock-frequency: [[0x2dc6c00]]
+  memory@1FFFF000:
+    compatible: ["mmio-sram"]
+    reg: [[0x1fffe000, 0x8000]]
+  pinctrl:
+    compatible: ["nxp,port-pinctrl"]
+    status: ["okay"]
+    pinmux_adc0:
+      phandle: [[0x9]]
+      group0:
+        pinmux: [[0x45000000], [0x45800000]]
+        drive-strength: ["low"]
+        slew-rate: ["slow"]
+    pinmux_i2c0:
+      phandle: [[0xa]]
+      group0:
+        pinmux: [[0x46000500], [0x46400500]]
+        drive-strength: ["low"]
+        drive-open-drain: true
+        slew-rate: ["fast"]
+    pinmux_lpuart0:
+      phandle: [[0xc]]
+      group0:
+        pinmux: [[0x400200], [0x800200]]
+        drive-strength: ["low"]
+        slew-rate: ["slow"]
+    pinmux_uart2:
+      phandle: [[0xd]]
+      group0:
+        pinmux: [[0x30800300], [0x30c00300]]
+        drive-strength: ["low"]
+        slew-rate: ["slow"]
+    pinmux_tpm0:
+      phandle: [[0xe]]
+      group0:
+        pinmux: [[0x47400300], [0x47c00300], [0x31400400]]
+        drive-strength: ["low"]
+        slew-rate: ["slow"]
+  clocks:
+    osc:
+      compatible: ["nxp,mcxc-osc"]
+      '#clock-cells': [[0x0]]
+      load-capacitance-picofarads: [[0x0]]
+      clock-frequency: [[0x8000]]
+      mode: ["low-power"]
+  temp0:
+    compatible: ["nxp,kinetis-temperature"]
+    io-channels: [[!phandle 0xf, 0x1a], [!phandle 0xf, 0x1b]]
+    io-channel-names: ["SENSOR", "BANDGAP"]
+    bandgap-voltage: [[0xf4240]]
+    vtemp25: [[0xaece0]]
+    sensor-slope-cold: [[0x654]]
+    sensor-slope-hot: [[0x654]]
+    status: ["disabled"]
+  leds:
+    compatible: ["gpio-leds"]
+    led_0:
+      gpios: [[!phandle 0x10, 0x1f, 0x1]]
+      label: ["Red LED"]
+    led_1:
+      gpios: [[!phandle 0xb, 0x5, 0x1]]
+      label: ["Green LED"]
+    led_2:
+      gpios: [[!phandle 0x10, 0x1d, 0x1]]
+      label: ["Blue LED"]
+  pwmleds:
+    compatible: ["pwm-leds"]
+    status: ["disabled"]
+    pwm_led_0:
+      pwms: [[!phandle 0x11, 0x4, 0x1312d00, 0x1]]
+      label: ["PWM Red LED"]
+    pwm_led_1:
+      pwms: [[!phandle 0x11, 0x5, 0x1312d00, 0x1]]
+      label: ["PWM Green LED"]
+    pwm_led_2:
+      pwms: [[!phandle 0x11, 0x2, 0x1312d00, 0x1]]
+      label: ["PWM Blue LED"]
+  gpio_keys:
+    compatible: ["gpio-keys"]
+    button_2:
+      label: ["User SW2"]
+      gpios: [[!phandle 0x12, 0x3, 0x0]]
+      zephyr,code: [[0xb]]
+    button_3:
+      label: ["User SW3"]
+      gpios: [[!phandle 0x13, 0x4, 0x1]]
+      zephyr,code: [[0x2]]
+...
