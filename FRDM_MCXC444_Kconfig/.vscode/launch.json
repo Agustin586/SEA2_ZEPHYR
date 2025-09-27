@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "type": "mcuxpresso-debug",
+      "name": "Debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": {
+        "elf": ""
+      },
+      "stopAtSymbol": "main",
+      "probeSerialNumber": "QL10HJKHVEAU2",
+      "isAttach": false,
+      "skipBuildBeforeDebug": false,
+      "gdbInitCommands": [
+        "set remotetimeout 600",
+        "set debug-file-directory",
+        "set non-stop off"
+      ],
+      "gdbServerConfigs": {
+        "linkserver": {},
+        "segger": {},
+        "pemicro": {}
+      },
+      "svdPath": "C:/Users/NXP/mcux-sdk/mcux_sdk_v25_03_00/svd/MIMXRT1062/MIMXRT1062.xml",
+      "showDevDebugOutput": "none"
+    }
+  ]
+}

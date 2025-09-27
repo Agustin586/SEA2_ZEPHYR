@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/ti/mspm0/source/ti/devices/msp",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "version": "25.3",
+  "toolchainPath": "C:/Users/aguat/zephyr-sdk-0.17.0/arm-zephyr-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "zephyr-freestanding",
+  "projectName": "FRDM_MCXC444_Kconfig",
+  "sdk": {
+    "version": "4.2.99",
+    "path": "d:\\aguat\\Documents\\zephyr\\zephyr_main\\zephyr_main\\zephyr_main"
+  }
+}
