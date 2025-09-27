@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/gpc_2",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/gpc_2"
+	}
+}

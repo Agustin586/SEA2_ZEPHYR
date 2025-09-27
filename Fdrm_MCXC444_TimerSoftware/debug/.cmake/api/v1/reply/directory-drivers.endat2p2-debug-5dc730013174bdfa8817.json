@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/endat2p2",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/endat2p2"
+	}
+}

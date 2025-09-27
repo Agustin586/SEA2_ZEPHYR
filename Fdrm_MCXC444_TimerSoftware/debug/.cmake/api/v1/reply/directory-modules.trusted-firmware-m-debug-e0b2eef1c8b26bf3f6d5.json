@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/trusted-firmware-m",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/modules/trusted-firmware-m"
+	}
+}

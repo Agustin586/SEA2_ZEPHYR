@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/arch/arch/arm/core/cortex_m",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/arm/core/cortex_m"
+	}
+}

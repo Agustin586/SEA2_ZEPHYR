@@ -18,7 +18,8 @@
         "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
         "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
         "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
-      }
+      },
+      "toolchainFile": ""
     },
     {
       "name": "release",
@@ -34,7 +35,8 @@
         "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
         "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
         "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
-      }
+      },
+      "toolchainFile": ""
     }
   ],
   "buildPresets": [

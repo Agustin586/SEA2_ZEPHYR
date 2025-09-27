@@ -1,12 +1,18 @@
 sample:
-  name: Blinky Sample
+  description: Hello World sample, the simplest Zephyr
+    application
+  name: hello world
+common:
+  min_ram: 2
+  min_flash: 16
+  tags: introduction
+  integration_platforms:
+    - native_sim
+  harness: console
+  harness_config:
+    type: one_line
+    regex:
+      - "Hello World! (.*)"
 tests:
-  sample.basic.blinky:
-    tags:
-      - LED
-      - gpio
-    filter: dt_enabled_alias_with_parent_compat("led0", "gpio-leds")
-    depends_on: gpio
-    harness: led
-    integration_platforms:
-      - frdm_k64f
+  sample.basic.helloworld:
+    tags: introduction
