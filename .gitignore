@@ -90,12 +90,13 @@ $RECYCLE.BIN/
 # =====================================
 # IDEs Y EDITORES
 # =====================================
-# Visual Studio Code (configuración personal)
-.vscode/settings.json
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/extensions.json
-# Pero MANTENER .vscode/c_cpp_properties.json para IntelliSense
+# Visual Studio Code (configuración personal - opcional)
+# Descomenta estas líneas si NO quieres compartir configuración de VS Code:
+# .vscode/settings.json
+# .vscode/launch.json  
+# .vscode/tasks.json
+# .vscode/extensions.json
+# Mantener .vscode/c_cpp_properties.json para IntelliSense
 
 # MCUXpresso IDE
 .project
