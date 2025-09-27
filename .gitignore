@@ -7,6 +7,12 @@ build/
 build-*/
 **/build/
 
+# Zephyr internal repositories - repositorios internos descargados
+**/__repo__/
+**/modules/
+**/tools/
+**/bootloader/
+
 # CMake generated files - solo los generados automáticamente
 **/CMakeFiles/
 **/CMakeCache.txt
