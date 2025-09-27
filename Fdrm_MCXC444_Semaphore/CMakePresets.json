@@ -29,7 +29,7 @@
       "inherits": "release-env",
       "cacheVariables": {
         "APP_DIR": "${fileDir}",
-        "BOARD": "frdm_mcxc444",
+        "BOARD": "",
         "CMAKE_BUILD_TYPE": "release",
         "ZEPHYR_BASE": "$env{ZEPHYR_BASE}",
         "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",

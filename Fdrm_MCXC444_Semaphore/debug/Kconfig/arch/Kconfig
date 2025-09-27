@@ -1,0 +1,11 @@
+# Load Zephyr Arch Kconfig descriptions.
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/rx/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/x86/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/xtensa/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/sparc/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/riscv/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/posix/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/mips/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/arm64/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/arm/Kconfig"
+osource "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/arch/arc/Kconfig"

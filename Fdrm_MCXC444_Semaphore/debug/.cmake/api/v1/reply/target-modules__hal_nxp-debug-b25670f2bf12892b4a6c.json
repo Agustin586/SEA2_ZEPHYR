@@ -1,0 +1,1192 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/hal_nxp/libmodules__hal_nxp.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"zephyr_library_named",
+			"zephyr_library",
+			"add_dependencies",
+			"target_link_libraries",
+			"target_include_directories",
+			"_mcux_add_specific_include",
+			"mcux_add_include",
+			"include",
+			"target_sources",
+			"zephyr_library_sources",
+			"mcux_add_source"
+		],
+		"files" : 
+		[
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/cmake/modules/extensions.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/modules/hal_nxp/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/cmake/extension/function.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpuart/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/arm/device_header.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/drivers/CMakeLists.txt",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/modules/hal_nxp/mcux/mcux-sdk-ng/drivers/drivers.cmake",
+			"D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/modules/hal_nxp/mcux/mcux-sdk-ng/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 434,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1049,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1027,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 469,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 28,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 412,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 367,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 412,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 367,
+				"parent" : 14
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 7,
+				"parent" : 16
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 412,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 367,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 412,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 367,
+				"parent" : 23
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 412,
+				"parent" : 26
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 367,
+				"parent" : 27
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 16,
+				"parent" : 29
+			},
+			{
+				"file" : 9,
+				"parent" : 30
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 6,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 536,
+				"parent" : 32
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 12,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 536,
+				"parent" : 34
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 36
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 36
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 12
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 39
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 4,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 41
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 13,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 81
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 81
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 8,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 84
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 220,
+				"parent" : 84
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/Fdrm_MCXC444_Semaphore/debug/zephyr/include/generated/zephyr/autoconf.h"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-printf-return-value"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mcpu=cortex-m0plus"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mabi=aapcs"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfp16-format=ieee"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mtp=soft"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "--sysroot=C:/Users/aguat/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include/zephyr/toolchain/zephyr_stdint.h"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-format-zero-length"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-pointer-sign"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wexpansion-to-defined"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wno-unused-but-set-variable"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-pic"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-pie"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-asynchronous-unwind-tables"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ftls-model=local-exec"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-reorder-functions"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "--param=min-pagesize=0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-defer-pop"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/GitHub/Zephyr-SEA2/Fdrm_MCXC444_Semaphore=CMAKE_SOURCE_DIR"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr=ZEPHYR_BASE"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmacro-prefix-map=D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main=WEST_TOPDIR"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-specs=picolibc.specs"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-std=c99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "CPU_MCXC444VLH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "KERNEL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "K_HEAP_MEM_POOL_SIZE=256"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "PICOLIBC_LONG_LONG_PRINTF_SCANF"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__LINUX_ERRNO_EXTENSIONS__"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__PROGRAM_START"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__ZEPHYR__=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpuart"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/drivers"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/Fdrm_MCXC444_Semaphore/debug/zephyr/include/generated/zephyr"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/GitHub/Zephyr-SEA2/Fdrm_MCXC444_Semaphore/debug/zephyr/include/generated"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/soc/nxp/mcx"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/soc/nxp/mcx/mcxc/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/soc/nxp/mcx/../common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/cmsis_6/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/modules/cmsis_6/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/microchip/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/m0p"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/peripherals"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/peripherals/m0p"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/ti/mspm0/source/ti/devices/msp/peripherals/m0p/sysctl"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/lib/libc/common/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				44,
+				46
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "kobj_types_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "version_h::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "offsets_h::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "driver_validation_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "device_api_ld_target::@d36e55b69c1b90fb26b2"
+		}
+	],
+	"id" : "modules__hal_nxp::@bbf8a5eb6bf6a8dd8b9f",
+	"name" : "modules__hal_nxp",
+	"nameOnDisk" : "libmodules__hal_nxp.a",
+	"paths" : 
+	{
+		"build" : "modules/hal_nxp",
+		"source" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/zephyr/modules/hal_nxp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				44,
+				46
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				45,
+				47
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 33,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common/fsl_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common/fsl_common_arm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpuart/fsl_lpuart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpuart/fsl_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port/fsl_port.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 42,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/fsl_device_registers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 43,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/MCXC444.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/MCXC444_features.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 45,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/MCXC444_COMMON.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 46,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_ADC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 47,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_CMP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 48,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_DAC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_DMA.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 50,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_DMAMUX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 51,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_FGPIO.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_FLEXIO.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_FTFA.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 54,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_GPIO.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 55,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_I2C.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 56,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_I2S.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 57,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_LCD.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 58,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_LLWU.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_LPTMR.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 60,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_LPUART.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 61,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_MCG.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 62,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_MCM.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 63,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_MTB.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_MTBDWT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_NV.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 66,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_OSC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 67,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_PIT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_PMC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_PORT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 70,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_RCM.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_RFSYS.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 72,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_ROM.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_RTC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 74,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_SIM.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 75,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_SMC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 76,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_SPI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_TPM.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 78,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_UART.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 79,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_USB.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/periph2/PERI_VREF.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/system_MCXC444.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/system_MCXC444.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 0,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/drivers/fsl_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"path" : "D:/aguat/Documents/zephyr/zephyr_main/zephyr_main/zephyr_main/modules/hal/nxp/mcux/mcux-sdk-ng/devices/MCX/MCXC/MCXC444/drivers/fsl_clock.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
