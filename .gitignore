@@ -1,59 +1,115 @@
 # =====================================
-# ARCHIVOS Y CARPETAS DE COMPILACIÓN
+# ZEPHYR RTOS + MCUXpresso NXP
 # =====================================
 
-# Carpeta de build (nombre por defecto)
+# Build directories - solo las carpetas de compilación
 build/
 build-*/
+**/build/
 
-# Archivos CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-compile_commands.json
-zephyr/
+# CMake generated files - solo los generados automáticamente
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
 
-# Archivos ninja
-.ninja_deps
-.ninja_log
-rules.ninja
+# Ninja build files
+**/.ninja_deps
+**/.ninja_log
+**/build.ninja
 
-# Archivos de configuración generados
-.prj.conf.cmd
-.prj.conf.old
-prj.conf.orig
-*.config
-*.defconfig
+# Zephyr generated files
+**/.config
+**/.config.old
+**/zephyr.dts
+**/zephyr.dts.pre
+**/zephyr_generated.h
+**/autoconf.h
+**/devicetree_generated.h
+**/syscall_list.h
+**/driver-validation.h
+**/linker.ld
+**/linker_zephyr_pre*.ld
+**/linker_pass_final.ld
+**/isrList.bin
+**/isr_tables.c
 
-# Archivos de logs
-*.log
+# MCUXpresso generated files
+**/.mcuxpressoide_packages_support/
+**/.metadata/
+**/RemoteSystemsTempFiles/
+**/*.launch
+
+# Binary and object files
+**/*.bin
+**/*.hex
+**/*.elf
+**/*.map
+**/*.a
+**/*.o
+**/*.d
+
+# Archives and libraries (except source libraries)
+**/*.lib
 
 # =====================================
-# ARCHIVOS TEMPORALES
+# DESARROLLO - ARCHIVOS TEMPORALES
 # =====================================
 *.swp
 *.swo
 *.tmp
 *.bak
+*~
 
 # =====================================
-# WINDOWS / SISTEMA
+# SISTEMA OPERATIVO
 # =====================================
+# Windows
 Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.lnk
 
-# =====================================
-# VISUAL STUDIO CODE (opcional)
-# =====================================
-# Si NO querés compartir configuración de VSCode:
-.vscode/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Ignorar basura de repos internos de Zephyr
-__repo__/
-modules/
-tools/
-bootloader/
-zephyr/
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# =====================================
+# IDEs Y EDITORES
+# =====================================
+# Visual Studio Code (configuración personal)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+# Pero MANTENER .vscode/c_cpp_properties.json para IntelliSense
+
+# MCUXpresso IDE
+.project
+.cproject
+.settings/
+.mcuxpressoide/
+.mcuxpresso/
+
+# Eclipse
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# =====================================
+# LOGS Y REPORTES
+# =====================================
+*.log
+*.report
