@@ -1,0 +1,12 @@
+{
+  "version": "25.3",
+  "toolchainPath": "",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "zephyr-freestanding",
+  "sdk": {
+    "path": "d:\\aguat\\Documents\\zephyr\\zephyr_main\\zephyr_main\\zephyr_main",
+    "version": "4.2.99"
+  }
+}
