@@ -449,20 +449,6 @@ Para expandir tu conocimiento sobre hilos:
 
 ---
 
-## 🎉 **Conclusión**
-
-¡Felicidades! Has implementado exitosamente un sistema multihilo en Zephyr. Este ejemplo demuestra:
-
-- ✅ **Conceptos fundamentales** de threading
-- ✅ **Dos métodos** de creación de hilos
-- ✅ **Gestión de prioridades** y scheduling
-- ✅ **Uso práctico** con GPIO y consola
-- ✅ **Base sólida** para proyectos más complejos
-
-Los hilos son una herramienta poderosa para crear sistemas embebidos eficientes y responsivos. ¡Continúa experimentando y construyendo proyectos más avanzados!
-
----
-
 **Autor:** Zuliani, Agustín  
 **Proyecto:** Zephyr SEA2 - Ejemplos FRDM-MCXC444  
 **Fecha:** 2025
