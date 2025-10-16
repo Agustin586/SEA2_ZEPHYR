@@ -114,7 +114,9 @@ static void threadFunction(void* p1, void* p2, void* p3)
 		
 		k_msleep(500);
 	}
-}static void timerPeriodicCallback(struct k_timer* timer_id)
+}
+
+static void timerPeriodicCallback(struct k_timer* timer_id)
 {
 	printk("[TIMER PERIODIC] Timer finalizado\n");
 }
