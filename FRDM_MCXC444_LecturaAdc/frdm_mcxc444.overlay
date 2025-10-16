@@ -1,0 +1,21 @@
+/ {
+    zephyr,user {
+        io-channels = <&adc0 26>;  /* Canal 26 como entrada positiva */
+    };
+};
+
+&adc0 {
+    status = "okay";
+
+    #address-cells = <1>;
+    #size-cells = <0>;
+
+    channel@1a {
+        reg = <26>;                                         /* Canal 26 para sensor de temperatura interno */
+        zephyr,gain = "ADC_GAIN_1";                         /* Ganancia del resultado */
+        zephyr,reference = "ADC_REF_VDD_1";              /* Referencia de tensión */
+        zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;   /* Tiempo de adquisición */
+        zephyr,resolution = <12>;                           /* Resolución del ADC */
+        zephyr,input-positive = <26>;                       /* Entrada positiva */
+    };
+};
