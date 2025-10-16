@@ -2,6 +2,9 @@
 # ZEPHYR RTOS + MCUXpresso NXP
 # =====================================
 
+# Debug directories
+**/debug
+
 # Build directories - solo las carpetas de compilación
 build/
 build-*/
